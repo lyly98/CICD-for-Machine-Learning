@@ -23,4 +23,5 @@ update-branch:
 	git config --global user.email "$(USER_EMAIL)"
 	git add .
 	git commit -am "Update branch via CI"
+	git pull --rebase origin main
 	git push
