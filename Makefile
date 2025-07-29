@@ -26,7 +26,7 @@ update-branch:
 	git push --force origin HEAD:update
 
 
-ht-login:
+hf-login:
 	pip install -U "huggingface_hub[cli]"
 	git pull origin update
 	git switch update
